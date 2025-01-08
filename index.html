@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Penguin fashione</title>
     <!-- tailwindcss cdn -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -11,214 +11,402 @@
         theme: {
           extend: {
             colors: {
-              clifford: '#da373d',
-            }
-          }
-        }
-      }
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
     </script>
     <!-- google-font link -->
-     <style>
-        .font-bebas-neue {
-  font-family: "Bebas Neue", serif;
-           }
-        .font-bebas-neue {
-  font-family: "Bebas Neue", serif;
- 
-           }
-
-     </style>
-
-
-</head>
-<body>
-   <main>
-        <!-- header-section -->
-       <header class="bg-[#FFFBF0] h-[585px]">
+    <style>
+      .font-bebas-neue {
+        font-family: "Bebas Neue", serif;
+      }
+      .font-roboto {
+        font-family: "Roboto", serif;
+       
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <!-- header-section -->
+      <header class="bg-[#FFFBF0] md:h-[585px]">
         <!-- nav-section-->
         <nav></nav>
-       <!-- hero-section -->
-        <section class="flex justify-between items-center h-full">
-            <!-- banner-texting-section -->
-            <div class="p-10">
-                <h1 class="text-5xl md:text-7xl uppercase font-bebas-neue font-bold ml-10 my-4"> <span class="text-[#FABE4C]">Be the penguins</span> <br> Of winter</h1>
-                <p class="text-[#3E3E3E] font-bebas-neue ml-10 my-4">Be the best for this winter with pengins fashion always with best pepole so <br> you are the best.</p>
-                <button class="ml-10 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-6 py-4 text-xl uppercase font-semibold rounded-lg">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                      </svg>
-                      
-                    buy now
-                </button>
-            </div>
-            <!-- banner-image-section -->
-            <div class="p-10">
-                <img src="./images/model.png" alt="">
-            </div>
-        </section>
-       </header>
+        <!-- hero-section -->
 
-        <!-- Women-jaket section -->
-         <container>
-               
-             <section class="md:w-[85%] mx-auto my-14">
-              <h1 class="uppercase text-5xl text-[#363958] font-bold font-bebas-neue my-10 " >WoMan Jacket</h1>
+        <section class="md:flex justify-between items-center h-full">
+          <!-- banner-texting-section -->
+          <div class="p-10">
+            <h1
+              class="text-5xl md:text-7xl uppercase font-bebas-neue font-bold ml-10 my-4"
+            >
+              <span class="text-[#FABE4C]">Be the penguins</span> <br />
+              Of winter
+            </h1>
+            <p class="text-[#3E3E3E] font-bebas-neue ml-10 my-4">
+              Be the best for this winter with pengins fashion always with best
+              pepole so <br />
+              you are the best.
+            </p>
+            <button
+              class="ml-10 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-6 py-4 text-xl uppercase font-semibold rounded-lg"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 inline"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
 
-              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-
-                <div class="card-1 w-[370px] h-auto bg-[#FFFFFF] shadow-lg border-[16px] border-white rounded-lg">
-
-                  <div  class="p-3 bg-[#F1F1F1] rounded"> 
-                    <img src="./images/jacket-1.png" alt="">
-                  </div>  
-
-                  <div>
-                     <h1 class="text-2xl text-[#363958] font-bold my-4">Yellow Coat Jacket </h1>
-                     <p class="font-bebas-neue text-[#3E3E3E]">Woman best winter jaket for stylish and butiful girls who loking for uniqe in this winter.</p>
-
-                   <div class="flex justify-between items-center mt-6">
-                    <h2 class="text-3xl font-semibold text-[#FABE4C]">$634</h2>
-                    <button class="ml-10 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-6 py-4 text-xl uppercase font-semibold rounded-lg">
-                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                        </svg>
-                        
-                      buy now
-                  </button>
-                   </div>
-                  </div>  
-               </div>
-               
-               <div class="card-2 w-[370px] h-auto bg-[#FFFFFF] shadow-lg border-[16px] border-white rounded-lg">
-
-                <div  class="p-3 bg-[#F1F1F1] rounded"> 
-                  <img src="./images/jacket-2.png" alt="">
-                </div>  
-
-                <div>
-                   <h1 class="text-2xl text-[#363958] font-bold my-4">Ladeis Coat Jacket </h1>
-                   <p class="font-bebas-neue text-[#3E3E3E]">Woman best winter jaket for stylish and butiful girls who loking for uniqe in this winter.</p>
-
-                 <div class="flex justify-between items-center mt-6">
-                  <h2 class="text-3xl font-semibold text-[#FABE4C]">$234</h2>
-                  <button class="ml-10 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-6 py-4 text-xl uppercase font-semibold rounded-lg">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                      </svg>
-                      
-                    buy now
-                </button>
-                 </div>
-                </div>  
-             </div>
-                   
-             <div class="card-2 w-[370px] h-auto bg-[#FFFFFF] shadow-lg border-[16px] border-white rounded-lg">
-
-              <div  class="p-3 bg-[#F1F1F1] rounded"> 
-                <img src="./images/jacket-3.png" alt="">
-              </div>  
-
-              <div>
-                 <h1 class="text-2xl text-[#363958] font-bold my-4">Ladeis hudiss</h1>
-                 <p class="font-bebas-neue text-[#3E3E3E]">Woman best winter jaket for stylish and butiful girls who loking for uniqe in this winter.</p>
-
-               <div class="flex justify-between items-center mt-6">
-                <h2 class="text-3xl font-semibold text-[#FABE4C]">$402</h2>
-                <button class="ml-10 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-6 py-4 text-xl uppercase font-semibold rounded-lg">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
-                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                    </svg>
-                    
-                  buy now
-              </button>
-               </div>
-              </div>  
-           </div>
-
-               </div>
-             </section>
-         </container>
-
-          <!-- man jacket section -->
-          <container>
-               
-            <section class="md:w-[85%] mx-auto my-14">
-             <h1 class="uppercase text-5xl text-[#363958] font-bold font-bebas-neue my-10 " > Man's Jakets</h1>
-
-             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-
-               <div class="card-1 w-[370px] h-auto bg-[#FFFFFF] shadow-lg border-[16px] border-white rounded-lg">
-
-                 <div  class="p-3 bg-[#F1F1F1] rounded"> 
-                   <img src="./images/jacket-4.png" alt="">
-                 </div>  
-
-                 <div>
-                    <h1 class="text-2xl text-[#363958] font-bold my-4">Yellow Coat Jacket </h1>
-                    <p class="font-bebas-neue text-[#3E3E3E]">Woman best winter jaket for stylish and butiful girls who loking for uniqe in this winter.</p>
-
-                  <div class="flex justify-between items-center mt-6">
-                   <h2 class="text-3xl font-semibold text-[#FABE4C]">$634</h2>
-                   <button class="ml-10 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-6 py-4 text-xl uppercase font-semibold rounded-lg">
-                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
-                         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                       </svg>
-                       
-                     buy now
-                 </button>
-                  </div>
-                 </div>  
-              </div>
-              
-              <div class="card-2 w-[370px] h-auto bg-[#FFFFFF] shadow-lg border-[16px] border-white rounded-lg">
-
-               <div  class="p-3 bg-[#F1F1F1] rounded"> 
-                 <img src="./images/jacket-5.png" alt="">
-               </div>  
-
-               <div>
-                  <h1 class="text-2xl text-[#363958] font-bold my-4">Ladeis Coat Jacket </h1>
-                  <p class="font-bebas-neue text-[#3E3E3E]">Woman best winter jaket for stylish and butiful girls who loking for uniqe in this winter.</p>
-
-                <div class="flex justify-between items-center mt-6">
-                 <h2 class="text-3xl font-semibold text-[#FABE4C]">$234</h2>
-                 <button class="ml-10 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-6 py-4 text-xl uppercase font-semibold rounded-lg">
-                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
-                       <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                     </svg>
-                     
-                   buy now
-               </button>
-                </div>
-               </div>  
-            </div>
-                  
-            <div class="card-2 w-[370px] h-auto bg-[#FFFFFF] shadow-lg border-[16px] border-white rounded-lg">
-
-             <div  class="p-3 bg-[#F1F1F1] rounded"> 
-               <img src="./images/jacket-6.png" alt="">
-             </div>  
-
-             <div>
-                <h1 class="text-2xl text-[#363958] font-bold my-4">Ladeis hudiss</h1>
-                <p class="font-bebas-neue text-[#3E3E3E]">Woman best winter jaket for stylish and butiful girls who loking for uniqe in this winter.</p>
-
-              <div class="flex justify-between items-center mt-6">
-               <h2 class="text-3xl font-semibold text-[#FABE4C]">$402</h2>
-               <button class="ml-10 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-6 py-4 text-xl uppercase font-semibold rounded-lg">
-                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline">
-                     <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                   </svg>
-                   
-                 buy now
-             </button>
-              </div>
-             </div>  
+              buy now
+            </button>
           </div>
 
+          <!-- banner-image-section -->
+
+          <div class="p-10">
+            <img src="./images/model.png" alt="" />
+          </div>
+
+        </section>
+      </header>
+
+      <!-- Women-jaket section -->
+
+      <container>
+        <section class="md:w-[85%] mx-auto my-14 sm:mt-40">
+          <h1
+            class="uppercase text-5xl text-[#363958] font-bold font-bebas-neue my-10"
+          >
+            WoMan Jacket
+          </h1>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div
+              class="card-1 w-[370px] h-auto bg-[#FFFFFF] shadow-lg border-[16px] border-white rounded-lg"
+            >
+              <div class="p-3 bg-[#F1F1F1] rounded">
+                <img src="./images/jacket-1.png" alt="" />
               </div>
-            </section>
-        </container>
-   </main> 
-</body>
+
+              <div>
+                <h1 class="text-2xl text-[#363958] font-bold my-4">
+                  Yellow Coat Jacket
+                </h1>
+                <p class="font-bebas-neue text-[#3E3E3E]">
+                  Woman best winter jaket for stylish and butiful girls who
+                  loking for uniqe in this winter.
+                </p>
+
+                <div class="flex justify-between items-center mt-6">
+                  <h2 class="text-3xl font-semibold text-[#FABE4C]">$634</h2>
+                  <button
+                    class="ml-10 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-6 py-4 text-xl uppercase font-semibold rounded-lg"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6 inline"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                      />
+                    </svg>
+
+                    buy now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="card-2 w-[370px] h-auto bg-[#FFFFFF] shadow-lg border-[16px] border-white rounded-lg"
+            >
+              <div class="p-3 bg-[#F1F1F1] rounded">
+                <img src="./images/jacket-2.png" alt="" />
+              </div>
+
+              <div>
+                <h1 class="text-2xl text-[#363958] font-bold my-4">
+                  Ladeis Coat Jacket
+                </h1>
+                <p class="font-bebas-neue text-[#3E3E3E]">
+                  Woman best winter jaket for stylish and butiful girls who
+                  loking for uniqe in this winter.
+                </p>
+
+                <div class="flex justify-between items-center mt-6">
+                  <h2 class="text-3xl font-semibold text-[#FABE4C]">$234</h2>
+                  <button
+                    class="ml-10 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-6 py-4 text-xl uppercase font-semibold rounded-lg"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6 inline"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                      />
+                    </svg>
+
+                    buy now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="card-2 w-[370px] h-auto bg-[#FFFFFF] shadow-lg border-[16px] border-white rounded-lg"
+            >
+              <div class="p-3 bg-[#F1F1F1] rounded">
+                <img src="./images/jacket-3.png" alt="" />
+              </div>
+
+              <div>
+                <h1 class="text-2xl text-[#363958] font-bold my-4">
+                  Ladeis hudiss
+                </h1>
+                <p class="font-bebas-neue text-[#3E3E3E]">
+                  Woman best winter jaket for stylish and butiful girls who
+                  loking for uniqe in this winter.
+                </p>
+
+                <div class="flex justify-between items-center mt-6">
+                  <h2 class="text-3xl font-semibold text-[#FABE4C]">$402</h2>
+                  <button
+                    class="ml-10 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-6 py-4 text-xl uppercase font-semibold rounded-lg"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6 inline"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                      />
+                    </svg>
+
+                    buy now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </container>
+
+      <!-- man jacket section -->
+
+      <container>
+        <section class="md:w-[85%] mx-auto my-14">
+          <h1
+            class="uppercase text-5xl text-[#363958] font-bold font-bebas-neue my-10"
+          >
+            Man's Jakets
+          </h1>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div
+              class="card-1 w-[370px] h-auto bg-[#FFFFFF] shadow-lg border-[16px] border-white rounded-lg"
+            >
+              <div class="p-3 bg-[#F1F1F1] rounded">
+                <img src="./images/jacket-4.png" alt="" />
+              </div>
+
+              <div>
+                <h1 class="text-2xl text-[#363958] font-bold my-4">
+                  Yellow Coat Jacket
+                </h1>
+                <p class="font-bebas-neue text-[#3E3E3E]">
+                  Woman best winter jaket for stylish and butiful girls who
+                  loking for uniqe in this winter.
+                </p>
+
+                <div class="flex justify-between items-center mt-6">
+                  <h2 class="text-3xl font-semibold text-[#FABE4C]">$634</h2>
+                  <button
+                    class="ml-10 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-6 py-4 text-xl uppercase font-semibold rounded-lg"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6 inline"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                      />
+                    </svg>
+
+                    buy now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="card-2 w-[370px] h-auto bg-[#FFFFFF] shadow-lg border-[16px] border-white rounded-lg"
+            >
+              <div class="p-3 bg-[#F1F1F1] rounded">
+                <img src="./images/jacket-5.png" alt="" />
+              </div>
+
+              <div>
+                <h1 class="text-2xl text-[#363958] font-bold my-4">
+                  Ladeis Coat Jacket
+                </h1>
+                <p class="font-bebas-neue text-[#3E3E3E]">
+                  Woman best winter jaket for stylish and butiful girls who
+                  loking for uniqe in this winter.
+                </p>
+
+                <div class="flex justify-between items-center mt-6">
+                  <h2 class="text-3xl font-semibold text-[#FABE4C]">$234</h2>
+                  <button
+                    class="ml-10 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-6 py-4 text-xl uppercase font-semibold rounded-lg"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6 inline"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                      />
+                    </svg>
+
+                    buy now
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="card-2 w-[370px] h-auto bg-[#FFFFFF] shadow-lg border-[16px] border-white rounded-lg"
+            >
+              <div class="p-3 bg-[#F1F1F1] rounded">
+                <img src="./images/jacket-6.png" alt="" />
+              </div>
+
+              <div>
+                <h1 class="text-2xl text-[#363958] font-bold my-4">
+                  Ladeis hudiss
+                </h1>
+                <p class="font-bebas-neue text-[#3E3E3E]">
+                  Woman best winter jaket for stylish and butiful girls who
+                  loking for uniqe in this winter.
+                </p>
+
+                <div class="flex justify-between items-center mt-6">
+                  <h2 class="text-3xl font-semibold text-[#FABE4C]">$402</h2>
+                  <button
+                    class="ml-10 bg-gradient-to-r from-[#A4BC46] to-[#85A019] px-6 py-4 text-xl uppercase font-semibold rounded-lg"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="size-6 inline"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                      />
+                    </svg>
+
+                    buy now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </container>
+  
+      <!-- our-expartis-section -->
+
+    <container>
+       <section class="md:flex justify-between items-center h-full p-16">
+         <div>
+
+            <div  class="flex justify-between items-center  w-[490px] h-40 shadow-lg rounded-lg p-4">
+               <div class="w-20 h-24 mr-3">
+                 <img src="./images/like.gif" alt="">
+               </div>
+               <div>
+                  <h3 class="text-2xl font-bold font-roboto my-2">Find the Perfect Fit!</h3>
+                  <p class="text-[#3E3E3E] font-roboto">Everybody is different, which is why we
+                    offer styles for every body.</p>
+               </div>
+            </div>
+
+            <div  class="flex justify-between items-center  w-[490px] h-40 shadow-lg rounded-lg p-4">
+              <div class="w-20 h-24 mr-3">
+                <img src="./images/exchange.gif" alt="">
+              </div>
+              <div>
+                 <h3 class="text-2xl font-bold font-roboto my-2">Contact Our Seller!</h3>
+                 <p class="text-[#3E3E3E] font-roboto">They are here to help you. That's quite 
+                  literally what we pay them for.</p>
+              </div>
+           </div>
+
+            
+           <div  class="flex justify-between items-center  w-[490px] h-40 shadow-lg rounded-lg p-4">
+            <div class="w-20 h-24 mr-3">
+              <img src="./images/around-the-world.gif" alt="">
+            </div>
+            <div>
+               <h3 class="text-2xl font-bold font-roboto my-2">Free Exchanges!</h3>
+               <p class="text-[#3E3E3E] font-roboto">One of the many reasons you can shop
+                with peace of mind.</p>
+            </div>
+         </div>
+         </div>
+         <div class="w-[600px] h-[354px]">
+          <img src="./images/shopping.png" alt="">
+         </div>
+       </section>
+    </container>
+
+    </main>
+  </body>
 </html>
